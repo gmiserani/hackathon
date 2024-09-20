@@ -1,0 +1,139 @@
+/* Centraliza o conteúdo da página */
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-color: #f5f5f5;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+h1 {
+  /* margin-top: 10%; */
+  font-size: 2.5rem; /* Aumenta o tamanho do título */
+  margin-bottom: 30px; /* Adiciona mais espaço abaixo do título */
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Ajusta o rótulo da descrição do bug e a caixa de texto */
+label {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 15px; /* Espaçamento maior entre o rótulo e a caixa de texto */
+  font-size: 1rem;
+}
+
+textarea {
+  width: 400px;
+  height: 100px;
+  margin-bottom: 30px; /* Aumenta o espaçamento entre o textarea e o próximo elemento */
+  padding: 10px;
+  border-radius: 10px; /* Aumenta o arredondamento dos cantos */
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  outline: none;
+}
+
+.input-row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px; /* Aumenta o espaçamento entre as linhas de inputs */
+}
+
+.input-pair {
+  display: flex;
+  flex-direction: row;
+  gap: 20px; /* Espaçamento entre os inputs */
+}
+
+input {
+  width: 180px;
+  padding: 10px;
+  border-radius: 10px; /* Aumenta o arredondamento dos inputs */
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  outline: none;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.solution-container {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+}
+
+.input-row button{
+  background-color: #45a049;
+  color: #ccc;
+  border: none;
+  padding: 10px 20px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.input-row button:hover{
+  background-color: #45a049;
+}
+
+.persona-container{
+  margin-top: 20px;
+  text-align: center;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.answer-container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.response-container {
+  max-width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  /* width: 70%; */
+  height: auto;
+  margin-bottom: 30px; /* Aumenta o espaçamento entre o textarea e o próximo elemento */
+  padding: 10px;
+  border-radius: 10px; /* Aumenta o arredondamento dos cantos */
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  outline: none;
+  background-color: #fff;
+}
